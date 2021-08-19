@@ -22,6 +22,17 @@ function Header() {
           <MenuIcon onClick={toggleModal} />
           {/* <Close className={show ? "show-modal" : "close-modal"} /> */}
         </div>
+        <ul className="header-navLinks">
+          <li>
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">discover</a>
+          </li>
+          <li>
+            <a href="#">get started</a>
+          </li>
+        </ul>
       </nav>
       <div className={show ? "header-menu show-modal" : "close-modal"}>
         <ul>
