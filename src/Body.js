@@ -52,11 +52,9 @@ function Body() {
           <div className="card about-firstCard">
             <div>
               <h3> Bamboo Stand</h3>
-              <hr />
-              <hr />
+
               <h4>Pledge $25 or more</h4>
-              <br />
-              <hr />
+
               <p>
                 {" "}
                 You get an ergonomic stand made of natural bamboo. You've helped
@@ -67,53 +65,45 @@ function Body() {
                 101
                 <span>left</span>
               </h1>
-              <br />
-              <hr />
+
               <button className="btn reward">select reward</button>
             </div>
           </div>
           <div className="card about-secondCard">
             <div>
               <h3> Black Edition Stand</h3>
-              <hr />
-              <hr />
               <h4>Pledge $75 or more</h4>
-              <br />
-              <hr />
+
               <p>
                 {" "}
                 You get a Black Special Edition computer stand and a personal
                 thank you. You’ll be added to our Backer member list. Shipping
                 is included.
               </p>
+
               <h1>
                 64
                 <span>left</span>
               </h1>
-              <br />
-              <hr />
               <button className="btn reward">select reward</button>
             </div>
           </div>
           <div className="card about-thirdCard">
             <div>
               <h3> Mahogany Special Edition</h3>
-              <hr />
-              <hr />
+
               <h4>Pledge $200 or more</h4>
-              <br />
-              <hr />
+
               <p>
                 {" "}
                 You get two Special Edition Mahogany stands, a Backer T-Shirt,
                 and a personal thank you. You’ll be added to our Backer member
                 list. Shipping is included.
               </p>
+
               <h1>
                 0<span>left</span>
               </h1>
-              <br />
-              <hr />
               <button className="btn reward">Out of Stock</button>
             </div>
           </div>
