@@ -19,8 +19,11 @@ function Header() {
       <nav className="header-navbar">
         <img className="header-logo" src={logo} alt="" />
         <div className="header-icons">
-          <MenuIcon onClick={toggleModal} />
-          {/* <Close className={show ? "show-modal" : "close-modal"} /> */}
+          {!show ? (
+            <MenuIcon onClick={toggleModal} />
+          ) : (
+            <Close onClick={toggleModal} />
+          )}
         </div>
         <ul className="header-navLinks">
           <li>
