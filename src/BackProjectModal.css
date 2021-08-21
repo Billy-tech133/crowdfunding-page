@@ -1,0 +1,86 @@
+.project{ 
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin-left: -45vw;
+    background: white;
+    min-height: 100vh;
+    width: 90vw;
+    z-index: -1;
+    visibility: hidden;
+    border-radius: 10px;
+}
+
+
+.show {
+   z-index: 6;
+   visibility: visible;
+}
+.project-inner {
+    margin: 30px 25px;
+}
+.modal-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px ;
+}
+.card {
+    margin: 30px 0;
+    border: 1px solid hsl(0, 1%, 52%);
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 15px 10px;
+}
+.project-inner > p {
+    line-height: 1.5;
+}
+.project > h1 {
+    color: white;
+}
+
+.card > .card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.card > .card-header button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background: transparent;
+}
+.card > .card-header div{
+    margin-left: 15px;
+}
+.card > .card-header > div h3:hover {
+    color: hsl(176, 50%, 47%);
+}
+
+.card >  p{
+    margin-left: 15px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.card > h2 {
+    margin-bottom: 24px;
+    margin-left: 15px;
+}
+.card > h2 span {
+    font-weight: 400;
+    margin-left: 10px;
+    color: hsl(0, 0%, 48%);
+    font-size: 16px;
+    top: 10;
+}
+
+@media only screen and (min-width: 800px) {
+    .project {
+        top: 600px;
+        left: 50%;
+        margin-left: -360px;
+        max-width: 720px;
+    }
+}

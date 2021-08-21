@@ -21,6 +21,7 @@
   font-size: 18px;
 }
 body {
+  min-width: 100vw;
   overflow-y: scroll;
   overflow-x: hidden;
   margin: 0;
@@ -31,8 +32,22 @@ h1,h2,h3 {
   font-weight: 700;
   color: black;
 }
+.app-shadow {
+    position: absolute;
+    top: 0;
+    height: 2100px;
+    width: 100vw;
+    opacity: 0.8;
+    background: linear-gradient(rgb(0,0,0), transparent);
+    z-index: 4;
+}
+
+.hide-shadow {
+  visibility: hidden;
+}
 p{
   color: var(--Dark-gray);
+  font-size: 18px;
 }
 code {
   font-family: 'Commissioner', sans-serif;

@@ -4,6 +4,7 @@
     background-image: url("./images/image-hero-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    z-index: 8;
 }
 
 .header-navbar {

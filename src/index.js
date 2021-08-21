@@ -3,10 +3,13 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { AppDataLayer } from "./context";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppDataLayer>
+      <App />
+    </AppDataLayer>
   </React.StrictMode>,
   document.getElementById("root")
 );
